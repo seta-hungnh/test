@@ -1,6 +1,6 @@
 <?php
 $database_host = "localhost";
-$database_name = "hohang20150404";
+$database_name = "base";
 $database_username = "root";
 $database_password = '';
 $tngconfig['maint'] = "";
@@ -44,9 +44,9 @@ $branchlinks_table = "tng_branchlinks";
 $assoc_table = "tng_associations";
 $mostwanted_table = "tng_mostwanted";
 
-$rootpath = "C:/xampp/htdocs/hohang/";
+$rootpath = "C:/xampp/htdocs/base/";
 $homepage = "index.php";
-$tngdomain = "http://localhost/hohang20150404";
+$tngdomain = "http://localhost/base";
 $sitename = "";
 $site_desc = "";
 $tngconfig['doctype'] = "";
@@ -88,7 +88,7 @@ $tngconfig['menu'] = "0";
 $tngconfig['istart'] = "0";
 $tngconfig['showhome'] = "0";
 $tngconfig['showsearch'] = "0";
-$tngconfig['showlogin'] = "1"; //1 là ko có login
+$tngconfig['showlogin'] = "1";
 $tngconfig['showshare'] = "0";
 $tngconfig['showprint'] = "0";
 $tngconfig['showbmarks'] = "1";
