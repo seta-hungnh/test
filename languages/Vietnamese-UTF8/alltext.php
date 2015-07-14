@@ -40,23 +40,23 @@ $dates['CAL'] = "Cal";
 $dates['EST'] = "Est";
 
 //global messages
-$text['cannotexecutequery'] = "Cannot execute query";
+$text['cannotexecutequery'] = "Không thể thực hiện truy vấn";
 $text['to'] = "to";
 $text['of'] = "of";
 $text['text_next'] = "Sau";
 $text['text_prev'] = "Trước";
 $text['clickdisplay'] = "Ấn vào để hiển thị";
 $text['clickhide'] = "Ấn vào để ẩn";
-$text['forgot1'] = "<strong>Forgot your username or password?</strong><br />Enter your e-mail address below to have your username sent to you.";
-$text['forgot2'] = "Enter your e-mail above and your username below to have your password reset (a temporary password will be sent to you).";
-$text['newpass'] = "Your new temporary password";
-$text['usersent'] = "Your username has been sent to your e-mail address.";
-$text['pwdsent'] = "Your new temporary password has been sent to your e-mail address.";
-$text['loginnotsent2'] = "The e-mail address you provided does not match any user account currently on record. No information has been sent.";
-$text['loginnotsent3'] = "The e-mail address and username you provided do not match any user account currently on record. No information has been sent.";
-$text['logininfo'] = "Your login information";
-$text['collapseall'] = "Collapse all";
-$text['expandall'] = "Expand all";
+$text['forgot1'] = "<strong>Bạn quên tên đăng nhập hoặc mật khẩu?</strong><br />Hãy nhập địa chỉ email và tên đăng nhập để lấy lại mật khẩu";
+$text['forgot2'] = "Hãy nhập địa chỉ email và tên đăng nhập để tạo lại mật khẩu (một mật khẩu tạm thời sẽ được gửi đến cho bạn).";
+$text['newpass'] = "Mật khẩu tạm thời của bạn";
+$text['usersent'] = "Tên đăng nhập đã được gửi đến địa chỉ email của bạn";
+$text['pwdsent'] = "Mật khẩu tạm thời đã được gửi đến địa chỉ email của bạn.";
+$text['loginnotsent2'] = "Địa chỉ email bạn nhập không khớp với tài khoản nào. Không có thông tin nào được gửi đi.";
+$text['loginnotsent3'] = "Địa chỉ email và tên đăng nhập bạn nhập không khớp với tài khoản nào. Không có thông tin nào được gửi đi.";
+$text['logininfo'] = "Thông tin đăng nhập của bạn";
+$text['collapseall'] = "Đóng tất cả";
+$text['expandall'] = "Mở tất cả";
 
 //media types
 $text['photos'] = "Ảnh";

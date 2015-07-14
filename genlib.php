@@ -342,9 +342,9 @@ function tng_menu( $enttype, $currpage, $entityID, $innermenu ) {
 			$menu .= doMenuItem( $nexttab++, "$pedigree_url" . "personID=$entityID&amp;tree=$tree" , "ped", $text['ancestors'], $currpage, "pedigree" );
 			$menu .= doMenuItem( $nexttab++, "$descend_url" . "personID=$entityID&amp;tree=$tree" , "desc", $text['descendants'], $currpage, "descend" );
 			$menu .= doMenuItem( $nexttab++, "$relateform_url" . "primaryID=$entityID&amp;tree=$tree" , "rel", $text['relationship'], $currpage, "relate" );
-			$menu .= doMenuItem( $nexttab++, "$timeline_url" . "primaryID=$entityID&amp;tree=$tree" , "time", $text['timeline'], $currpage, "timeline" );
-			if( !$disallowgedcreate || ($allow_ged && $rightbranch) )
-				$menu .= doMenuItem( $nexttab++, "$gedform_url" . "personID=$entityID&amp;tree=$tree" , "ged", $text['extractgedcom'], $currpage, "gedcom" );
+			//$menu .= doMenuItem( $nexttab++, "$timeline_url" . "primaryID=$entityID&amp;tree=$tree" , "time", $text['timeline'], $currpage, "timeline" );
+			//if( !$disallowgedcreate || ($allow_ged && $rightbranch) )
+			//	$menu .= doMenuItem( $nexttab++, "$gedform_url" . "personID=$entityID&amp;tree=$tree" , "ged", $text['extractgedcom'], $currpage, "gedcom" );
 			$editstr = "admin_editperson.php?person";
 		}
 		elseif( $enttype == "F" ) {
@@ -352,7 +352,7 @@ function tng_menu( $enttype, $currpage, $entityID, $innermenu ) {
 
 			$menu .= doMenuItem( $nexttab++, "$familygroup_url" . "familyID=$entityID&amp;tree=$tree" , "rel", $text['family'], $currpage, "family" );
 			$editstr = "admin_editfamily.php?family";
-		}
+		} 
 		elseif( $enttype == "S" ) {
 			$showsource_url = getURL( "showsource", 1 );
 

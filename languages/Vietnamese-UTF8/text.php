@@ -229,7 +229,7 @@ $text['gen11']="Cụ tổ 8 đời";
 $text['gen12']="Cụ tổ 9 đời";
 $text['graphdesc']="Biểu đô con cháu đến thời điểm này";
 $text['pedbox']="Box";
-$text['regformat']="Đăng ký";
+$text['regformat']="Khuôn mẫu";
 $text['extrasexpl']="= Ít nhất một hình ảnh, lịch sử hoặc mục phương tiện truyền thông khác tồn tại cho người này.";
 $text['popupnote3']="Biểu đồ";
 $text['mediaavail']="Media có sẵn";
