@@ -20,8 +20,9 @@ if(!$cms['support'] && $sitever != "mobile")
 			<div style="padding:10px">
 			<em class="maintitle">				
 				<?php echo $text['customtitle']; ?>
-				<br>
+				<br>                                                                        
 				<div class="mainmenu">
+                                                                                           <h2 class="header"><?php echo $text['customhighlightstitle']; ?></h2>    
 					<a href="descend.php?personID=I25&tree=honguyennamcanhtree">Con cháu cụ Nguyễn Văn Tố</a><br>
 					<a href="descend.php?personID=I37&tree=honguyennamcanhtree">Con cháu cụ Nguyễn Văn Uông</a><br>
 					<a href="descend.php?personID=I69&tree=honguyennamcanhtree">Con cháu cụ Nguyễn Văn Nhận</a><br>
@@ -34,7 +35,8 @@ if(!$cms['support'] && $sitever != "mobile")
 ?>			
             <em class="maintitle">			
 			<?php echo $text['customtitle']; ?>
-				<div class="mainmenu">
+                                                                        <div class="mainmenu">
+                                                                        <h2 class="header"><?php echo $text['customhighlightstitle']; ?></h2>        
 					<a href="descend.php?personID=I25&tree=honguyennamcanhtree">Con cháu cụ Nguyễn Văn Tố</a><br>
 					<a href="descend.php?personID=I37&tree=honguyennamcanhtree">Con cháu cụ Nguyễn Văn Uông</a><br>
 					<a href="descend.php?personID=I69&tree=honguyennamcanhtree">Con cháu cụ Nguyễn Văn Nhận</a><br>
