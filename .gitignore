@@ -439,7 +439,7 @@ surname_cloud.class.php
 switchcolor.php
 switchcolor2.php
 tabledefs.php
-templateconfig.php
+#templateconfig.php
 timeline.php
 timeline2.php
 tngdblib.php
