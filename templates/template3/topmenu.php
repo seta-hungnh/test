@@ -28,12 +28,7 @@
 			<br />
 			<a href="<?php echo $cms['tngpath']; ?>index.php" class="topmenu"><?php echo $text['homepage']; ?></a> |
 			<a href="<?php echo $cms['tngpath']; ?>whatsnew.php" class="topmenu"><?php echo $text['mnuwhatsnew']; ?></a> |
-			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=photos" class="topmenu"><?php echo $text['mnuphotos']; ?></a> |
-			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=histories" class="topmenu" ><?php echo $text['mnuhistories']; ?></a> |
-			<a href="<?php echo $cms['tngpath']; ?>browsesources.php" class="topmenu"><?php echo $text['mnusources']; ?></a> |
-			<a href="<?php echo $cms['tngpath']; ?>reports.php" class="topmenu"><?php echo $text['mnureports']; ?></a> |
-			<a href="<?php echo $cms['tngpath']; ?>cemeteries.php" class="topmenu"><?php echo $text['mnucemeteries']; ?></a> |
-			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=headstones" class="topmenu"><?php echo $text['mnutombstones']; ?></a> |
+			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=photos" class="topmenu"><?php echo $text['mnuphotos']; ?></a> |			
 			<a href="<?php echo $cms['tngpath']; ?>statistics.php" class="topmenu"><?php echo $text['mnustatistics']; ?></a> |
 			<a href="<?php echo $cms['tngpath']; ?>surnames.php" class="topmenu"><?php echo $text['mnulastnames']; ?></a>
 		</td>

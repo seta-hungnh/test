@@ -337,25 +337,25 @@ $text['more']="More";
 $text['notliving']="Sống";
 $text['nodayevents']="Sự kiện tháng này không liên quan đến một ngày cụ thể:";
 //added in 9.0.0 
-$text['csv']="CSV Comma phân cách tập tin";
+$text['csv']="CSV phân cách tập tin bằng dấu phẩy";
 break; 
  
 //showlog.php 
 case "showlog": 
 $text['logfilefor']="Đăng nhập tập tin cho";
-$text['mostrecentactions']="Hầu hết các hành động gần đây";
-$text['autorefresh']="Auto Refresh (30 giây)";
+$text['mostrecentactions']="hành động gần đây nhất";
+$text['autorefresh']="Tự động làm mới (30 giây)";
 $text['refreshoff']="Tắt tự động làm mới";
 break; 
  
 case "headstones": 
 case "showphoto": 
-$text['cemeteriesheadstones']="Các nghĩa trang và bia mộ";
+$text['cemeteriesheadstones']="nghĩa trang và bia mộ";
 $text['showallhsr']="Hiển thị tất cả các hồ sơ bia mộ";
 $text['in']="Trong";
 $text['showmap']="Hiển thị bản đồ";
 $text['headstonefor']="Bia mộ cho";
-$text['photoof']="Photo of";
+$text['photoof']="Ảnh";
 $text['firstpage']="Trang đầu";
 $text['lastpage']="Trang cuối";
 $text['photoowner']="Chủ sở hữu / Source";
@@ -611,14 +611,14 @@ $text['pedigree']="Pedigree";
 $text['birthabbr']="B";
 $text['chrabbr']="C";
 $text['seephoto']="Xem ảnh";
-$text['andlocation']="Location";
-$text['accessedby']="Truy cập bằng cách";
-$text['go']="Go";
+$text['andlocation']="địa điểm";
+$text['accessedby']="truy cập bằng";
+$text['go']="Đi";
 $text['family']="Gia đình"; // từ getPerson
 $text['children']="Con ruột"; // từ getPerson
 $text['tree']="Cây";
 $text['alltrees']="Tất cả cây";
-$text['nosurname']="[Không có họ]";
+$text['nosurname']="Không có họ";
 $text['thumb']="Hình nhỏ"; // như trong Hình thu nhỏ
 $text['people']="Con người";
 $text['title']="Title"; // từ getPerson
@@ -799,9 +799,9 @@ $text['mnufirstname']="Tên";
 $text['mnusearch']="Tìm kiếm";
 $text['mnureset']="Bắt đầu lại";
 $text['mnulogon']="Đăng nhập";
-$text['mnulogout']="Đăng nhập";
+$text['mnulogout']="Đăng xuất";
 $text['mnufeatures']="Các tính năng khác";
-$text['mnuregister']="Đăng ký một tài khoản người dùng";
+$text['mnuregister']="Đăng ký";
 $text['mnuadvancedsearch']="Tìm kiếm nâng cao";
 $text['mnulastnames']="Họ, tên đệm";
 $text['mnustatistics']="Thống kê";
@@ -813,7 +813,7 @@ $text['mnutombstones']="Bia mộ";
 $text['mnureports']="Báo cáo";
 $text['mnusources']="Nguồn";
 $text['mnuwhatsnew']="Tin mới";
-$text['mnushowlog']="Truy cập Đăng nhập";
+$text['mnushowlog']="Thông tin truy cập";
 $text['mnulanguage']="Thay đổi Ngôn ngữ";
 $text['mnuadmin']="Quản trị";
 $text['welcome']="Chào mừng";

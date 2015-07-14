@@ -104,27 +104,7 @@ if($sitever != "mobile") {
 <div class="mainmenu">
 			<br />
 			<a href="<?php echo $cms['tngpath']; ?>whatsnew.php"><?php echo $text['mnuwhatsnew']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=photos"><?php echo $text['mnuphotos']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=histories"><?php echo $text['mnuhistories']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=documents"><?php echo $text['documents']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=videos"><?php echo $text['videos']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=recordings"><?php echo $text['recordings']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>browsealbums.php"><?php echo $text['albums']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php"><?php echo $text['allmedia']; ?></a>
-
-			<br />
-			<a href="<?php echo $cms['tngpath']; ?>mostwanted.php"><?php echo $text['mostwanted']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>cemeteries.php"><?php echo $text['mnucemeteries']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=headstones"><?php echo $text['mnutombstones']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>places.php"><?php echo $text['places']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>anniversaries.php"><?php echo $text['anniversaries']; ?></a>
-
-			<br />
-			<a href="<?php echo $cms['tngpath']; ?>browsesources.php"><?php echo $text['mnusources']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>browserepos.php"><?php echo $text['repositories']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>reports.php"><?php echo $text['mnureports']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>browsenotes.php"><?php echo $text['notes']; ?></a> &nbsp;|&nbsp;
-			<a href="<?php echo $cms['tngpath']; ?>bookmarks.php"><?php echo $text['bookmarks']; ?></a> &nbsp;|&nbsp;
+			<a href="<?php echo $cms['tngpath']; ?>browsemedia.php?mediatypeID=photos"><?php echo $text['mnuphotos']; ?></a> &nbsp;|&nbsp;									
 			<a href="<?php echo $cms['tngpath']; ?>statistics.php"><?php echo $text['mnustatistics']; ?></a>
 			<br />
 <?php
