@@ -17,7 +17,7 @@ break;
 //changelanguage.php, savelanguage.php 
 case "language": 
 $text['newlanguage']="Ngôn ngữ mới";
-$text['changelanguage']="Thay đổi Ngôn ngữ";
+$text['changelanguage']="Thay đổi ngôn ngữ";
 $text['languagesaved']="Ngôn ngữ đã lưu";
 $text['sitemaint']="Bảo trì site";
 $text['standby']="Các trang web tạm thời không có trong khi chúng tôi cập nhật cơ sở dữ liệu của chúng tôi Vui lòng thử lại trong một vài phút. Nếu trang web vẫn còn xuống trong một thời gian dài của thời gian, xin vui lòng <a href=\";suggest.php\";> liên hệ với chủ sở hữu trang web < / a> ";
@@ -56,7 +56,7 @@ break;
 //getextras.php, getperson.php 
 case "getperson": 
 $text['photoshistoriesfor']="Hình ảnh và lịch sử cho";
-$text['indinfofor']="Cá nhân thông tin cho";
+$text['indinfofor']="Thông tin cá nhân";
 $text['pp']="Trang"; // trang viết tắt
 $text['age']="Tuổi";
 $text['agency']="Cơ quan";
@@ -76,32 +76,32 @@ $text['reviewmsg']="Bạn có một đề nghị thay đổi cần nhận xét c
  
 //relateform.php, relationship.php, findpersonform.php, findperson.php 
 case "relate": 
-$text['relcalc']="Tính toán quan hệ";
+$text['relcalc']="Tính toán mối quan hệ";
 $text['findrel']="Tìm quan hệ";
-$text['person1']="Người 1:";
-$text['person2']="Người 2:";
+$text['person1']="Thành viên 1:";
+$text['person2']="Thành viên 2:";
 $text['calculate']="Tính toán";
-$text['select2inds']="Hãy chọn hai cá nhân.";
-$text['findpersonid']="Tìm ID Người";
+$text['select2inds']="Hãy chọn hai thành viên";
+$text['findpersonid']="Tìm ID thành viên";
 $text['enternamepart']="Nhập một phần của tên đầu tiên hoặc cuối cùng";
 $text['pleasenamepart']="Xin vui lòng nhập một phần của một tên đầu tiên hoặc cuối cùng.";
 $text['clicktoselect']="Nhấp vào để chọn";
 $text['nobirthinfo']="Không có thông tin ngày sinh";
 $text['relateto']="Mối quan hệ";
-$text['sameperson']="Hai cá nhân là cùng một người.";
-$text['notrelated']="Hai cá nhân không có liên hệ trong vòng xxx đời. "; // Xxx / sẽ được thay thế bằng số của các thế hệ
-$text['findrelinstr']="Để hiển thị các mối quan hệ giữa hai người, sử dụng 'Tìm' nút dưới đây để xác định vị trí của cá nhân (hoặc giữ cho những người được hiển thị), sau đó nhấp vào 'Tính toán'.";
+$text['sameperson']="Hai thành viên là cùng một người.";
+$text['notrelated']="Hai thành viên không có liên hệ trong vòng xxx đời. "; // Xxx / sẽ được thay thế bằng số của các thế hệ
+$text['findrelinstr']="Để hiển thị các mối quan hệ giữa hai thành viên, sử dụng 'Tìm' nút dưới đây để xác định vị trí của thành viên (hoặc giữ cho những thành viên được hiển thị), sau đó nhấp vào 'Tính toán'.";
 $text['sometimes']="(Đôi khi kiểm tra trên một số lượng khác nhau của các thế hệ mang lại một kết quả khác nhau.) ";
 $text['findanother']="Tìm một mối quan hệ";
 $text['brother']="Anh trai của";
 $text['sister']="Em gái của";
 $text['sibling']="Anh, chị, em ruột của";
-$text['uncle']="Chú xxx";
-$text['aunt']="Dì xxx";
-$text['uncleaunt']="Chú xxx / dì";
-$text['nephew']="Là cháu trai xxx";
-$text['niece']="Cháu gái xxx";
-$text['nephnc']="Là cháu trai xxx / cháu gái của";
+$text['uncle']="Chú xxx đời";
+$text['aunt']="Dì xxx đời";
+$text['uncleaunt']="Chú xxx đời/ dì";
+$text['nephew']="Là cháu trai xxx đời";
+$text['niece']="Cháu gái xxx đời";
+$text['nephnc']="Là cháu trai xxx đời/ cháu gái của";
 $text['removed']="Lần gỡ bỏ";
 $text['rhusband']="Chồng";
 $text['rwife']="Vợ";
@@ -112,9 +112,9 @@ $text['rchild']="Con của";
 $text['sil']="Con rể";
 $text['dil']="Con dâu";
 $text['sdil']="Con rể và dâu";
-$text['gson']="Cháu xxx";
-$text['gdau']="Cháu gái xxx";
-$text['gsondau']="Cháu xxx";
+$text['gson']="Cháu trai xxx đời";
+$text['gdau']="Cháu gái xxx đời";
+$text['gsondau']="Cháu xxx đời";
 $text['great']="Cụ tổ";
 $text['spouses']="vợ chồng";
 $text['is']="Là";
@@ -133,12 +133,12 @@ $text['fhalfcousin']="Nửa xxx anh em họ yyy"; // ​​nữ người anh em 
 $text['halfcousin']="Nửa xxx anh em họ yyy";
 //added in 8.0.0 
 $text['oneremoved']="Một lần gỡ bỏ";
-$text['gfath']="Ông nội xxx";
-$text['gmoth']="Bà ngoại xxx";
-$text['gpar']="Ông bà xxx";
+$text['gfath']="Cụ nội xxx đời";
+$text['gmoth']="Cụ ngoại xxx đời";
+$text['gpar']="Cụ xxx đời";
 $text['mothof']="Mẹ của";
-$text['fathof']="Cha đẻ của";
-$text['parof']="Phụ huynh của";
+$text['fathof']="Cha của";
+$text['parof']="Cha mẹ của";
 $text['maxrels']="Tối đa các mối quan hệ để hiển thị";
 $text['dospouses']="Hiển thị các mối quan hệ liên quan đến vợ (chồng)";
 $text['rels']="Mối quan hệ";
@@ -149,39 +149,39 @@ $text['fmil']="Cha đẻ hoặc mẹ chồng";
 $text['stepson']="Con trai riêng của";
 $text['stepdau']="Con gái riêng của";
 $text['stepchild']="Con riêng của";
-$text['stepgson']="Xxx bước cháu trai của";
-$text['stepgdau']="Xxx bước cháu gái của";
-$text['stepgchild']="Xxx bước cháu";
+$text['stepgson']="cháu trai kế xxx đời của";
+$text['stepgdau']="cháu gái kế xxx đời của";
+$text['stepgchild']="cháu";
 //added in 8.1.1 
-$text['ggreat']="Great";
+$text['ggreat']="cụ cố";
 //added in 8.1.2 
-$text['ggfath']="Xxx ông nội của";
-$text['ggmoth']="Xxx bà nội của";
-$text['ggpar']="Xxx tuyệt vời ông bà";
-$text['ggson']="Xxx cháu trai của";
-$text['ggdau']="Xxx cháu gái của";
-$text['ggsondau']="Xxx cháu của";
-$text['gstepgson']="Xxx lớn bước cháu trai của";
-$text['gstepgdau']="Xxx lớn bước cháu gái của";
-$text['gstepgchild']="Xxx lớn bước cháu của";
-$text['guncle']="Xxx chú của";
-$text['gaunt']="Xxx cô của";
-$text['guncleaunt']="Xxx chú / cô của";
-$text['gnephew']="Xxx cháu của";
-$text['gniece']="Xxx cháu gái của";
-$text['gnephnc']="Xxx cháu trai / cháu gái của";
+$text['ggfath']="cụ cố nội xxx đời của";
+$text['ggmoth']="cụ cố ngoại xxx đời của";
+$text['ggpar']="cụ cố xxx đời của";
+$text['ggson']="cháu trai xxx đời của ông bà";
+$text['ggdau']="cháu gái xxx đời của ông bà";
+$text['ggsondau']="cháu xxx đời của ông bà";
+$text['gstepgson']="cháu trai riêng xxx đờicủa";
+$text['gstepgdau']="cháu gái riêng xxx đờicủa";
+$text['gstepgchild']="cháu riêng xxx đờicủa";
+$text['guncle']="ông bác xxx đời của";
+$text['gaunt']="bà cô xxx đời của";
+$text['guncleaunt']="ông bác, bà cô xxx đời của";
+$text['gnephew']="cháu trai xxx đời của";
+$text['gniece']="cháu gái xxx đời của";
+$text['gnephnc']="cháu xxx đời của";
 break; 
  
 case "familygroup": 
-$text['familygroupfor']="Family Group Bảng cho";
+$text['familygroupfor']="Nhóm gia đình";
 $text['ldsords']="Pháp lệnh LDS";
 $text['baptizedlds']="Rửa tội";
 $text['endowedlds']="Ưu đãi";
 $text['sealedplds']="Sealed Parents";
 $text['sealedslds']="Sealed để vợ, chồng";
 $text['otherspouse']="Khác vợ, chồng";
-$text['husband']="Cha";
-$text['wife']="Mother";
+$text['husband']="Chồng";
+$text['wife']="Vợ";
 break; 
  
 //pedigree.php 
@@ -210,8 +210,8 @@ $text['childof']="Con của";
 $text['stdformat']="Định dạng chuẩn";
 $text['ahnentafel']="Ahnentafel";
 $text['addnewfam']="Thêm gia đình mới";
-$text['editfam']="Chirh sửa gia đinh";
-$text['side']="Side";
+$text['editfam']="Chỉnh sửa gia đinh";
+$text['side']="Phía";
 $text['familyof']="Gia đình";
 $text['paternal']="Cha";
 $text['maternal']="Bà mẹ";
@@ -727,7 +727,7 @@ $text['allmedia']="Tất cả các media";
 $text['repositories']="Kho";
 $text['albums']="Album";
 $text['cemeteries']="Nghĩa trang";
-$text['surnames']="Họ";
+$text['surnames']="Họ, tên đệm";
 $text['dates']="Ngày";
 $text['link']="Link";
 $text['media']="Media";
@@ -820,9 +820,9 @@ $text['welcome']="Chào mừng";
 $text['contactus']="Liên hệ";
 //changed in 8.0.0 
 $text['born']="Năm sinh";
-$text['searchnames']="Người tìm kiếm";
+$text['searchnames']="Tìm kiếm tên";
 //added in 8.0.0 
-$text['editperson']="Chỉnh sửa Người";
+$text['editperson']="Chỉnh sửa thành viên";
 $text['loadmap']="Tải bản đồ";
 $text['birth']="Sinh nhật";
 $text['wasborn']="Được sinh ra";

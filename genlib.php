@@ -132,8 +132,7 @@ function tng_header( $title, $flags ) {
 	@include( $custommeta );
 	if( $tngprint )
 		echo "<link href=\"{$cms['tngpath']}css/tngprint.css\" rel=\"stylesheet\" type=\"text/css\" />\n";
-	echo "<!-- $tng_title, v.$tng_version ($tng_date), Written by Darrin Lythgoe, $tng_copyright -->\n";
-
+	
 	if($sitever == "mobile") {
 		if(!isset($flags['nomobile']) || !$flags['nomobile']) {
 			$icons = tng_mobileicons($title);
@@ -154,7 +153,7 @@ function tng_header( $title, $flags ) {
 	if( $sitever != "mobile" && (!isset($flags['noicons']) || !$flags['noicons']) )
 		$icons = tng_icons( 1, $title );
 	echo $icons;  //from above
-
+	
 	if(!$cms['support'] && $sitever == "mobile" && !$tngprint && (!isset($flags['noheader']) || !$flags['noheader'])) {
 		$ttitle = "t{$templatenum}_maintitle";
 		if($tmp[$ttitle])
@@ -509,12 +508,12 @@ function tng_getFindMenu() {
 	global $tngconfig, $time_offset;
 
 	$menu = tngddrow(getURL( "surnames", 0 ), "surnames-icon", "", "surnames");
-	$menu .= tngddrow(getURL( "bookmarks", 0 ), "bookmarks-icon", "", "bookmarks");
-	$menu .= tngddrow(getURL( "places", 0 ), "places-icon", "", "places");
-	$menu .= tngddrow(getURL( "anniversaries", 0 ), "dates-icon", "", "dates");
-	$tngmonth = date("m", time() + ( 3600 * $time_offset ) );
-	$menu .= tngddrow(getURL( "calendar", 1 ) . "m=$tngmonth", "calendar-icon", "", "calendar");
-	$menu .= tngddrow(getURL( "cemeteries", 0 ), "cemeteries-icon", "", "cemeteries");
+	//$menu .= tngddrow(getURL( "bookmarks", 0 ), "bookmarks-icon", "", "bookmarks");
+	//$menu .= tngddrow(getURL( "places", 0 ), "places-icon", "", "places");
+	//$menu .= tngddrow(getURL( "anniversaries", 0 ), "dates-icon", "", "dates");
+	//$tngmonth = date("m", time() + ( 3600 * $time_offset ) );
+	//$menu .= tngddrow(getURL( "calendar", 1 ) . "m=$tngmonth", "calendar-icon", "", "calendar");
+	//$menu .= tngddrow(getURL( "cemeteries", 0 ), "cemeteries-icon", "", "cemeteries");
 	$menu .= tngddrow(getURL( "searchform", 0 ), "search-icon", "", "searchnames");
 	$menu .= tngddrow(getURL( "famsearchform", 0 ), "fsearch-icon", "", "searchfams");
 
@@ -532,21 +531,22 @@ function tng_getMediaMenu() {
 	global $mediatypes, $tngconfig;
 	
 	$menu = "";
-	foreach( $mediatypes as $mediatype ) {
+	//foreach( $mediatypes as $mediatype ) {
+		$mediatype = $mediatypes[0];
 		if(!$mediatype['disabled']) {
 			$menu .= tngddrow(getURL( "browsemedia", 1 ) . "mediatypeID=" . $mediatype['ID'], $mediatype['ID'] . "-icon", $mediatype['icon'], $mediatype['display'], true);
 			$tngconfig['menucount']++;
 		}
-	}
-	$menu .= tngddrow(getURL( "browsealbums", 0 ), "albums-icon", "", "albums");
-	$menu .= tngddrow(getURL( "browsemedia", 0 ), "media-icon", "", "allmedia");
-	$tngconfig['menucount'] += 2;
+	//}
+	//$menu .= tngddrow(getURL( "browsealbums", 0 ), "albums-icon", "", "albums");
+	//$menu .= tngddrow(getURL( "browsemedia", 0 ), "media-icon", "", "allmedia");
+	//$tngconfig['menucount'] += 2;
 
 	global $mediamenulinks;
 	if( isset( $mediamenulinks ) ) {
 		$menu .= custom_links( $mediamenulinks );
 	}
-
+	
 	return $menu;
 }
 
@@ -554,14 +554,14 @@ function tng_getInfoMenu($title) {
 	global $allow_admin, $cms, $tngconfig;
 	
 	$menu = tngddrow(getURL( "whatsnew", 0 ), "whatsnew-icon", "", "whatsnew");
-	$menu .= tngddrow(getURL( "mostwanted", 0 ), "mw-icon", "", "mostwanted");
-	$menu .= tngddrow(getURL( "reports", 0 ), "reports-icon", "", "reports");
+	//$menu .= tngddrow(getURL( "mostwanted", 0 ), "mw-icon", "", "mostwanted");
+	//$menu .= tngddrow(getURL( "reports", 0 ), "reports-icon", "", "reports");
 	$menu .= tngddrow(getURL( "statistics", 0 ), "stats-icon", "", "databasestatistics");
-	$menu .= tngddrow(getURL( "browsetrees", 0 ), "trees-icon", "", "trees");
-	$menu .= tngddrow(getURL( "browsebranches", 0 ), "branches-icon", "", "branches");
-	$menu .= tngddrow(getURL( "browsenotes", 0 ), "notes-icon", "", "notes");
-	$menu .= tngddrow(getURL( "browsesources", 0 ), "sources-icon", "", "sources");
-	$menu .= tngddrow(getURL( "browserepos", 0 ), "repos-icon", "", "repositories");
+	//$menu .= tngddrow(getURL( "browsetrees", 0 ), "trees-icon", "", "trees");
+	//$menu .= tngddrow(getURL( "browsebranches", 0 ), "branches-icon", "", "branches");
+	//$menu .= tngddrow(getURL( "browsenotes", 0 ), "notes-icon", "", "notes");
+	//$menu .= tngddrow(getURL( "browsesources", 0 ), "sources-icon", "", "sources");
+	//$menu .= tngddrow(getURL( "browserepos", 0 ), "repos-icon", "", "repositories");
 	if( $allow_admin ) {
 		$menu .= tngddrow(($cms['adminurl'] ? $cms['adminurl'] : $cms['tngpath']."admin.php"), "admin-icon", "", "administration");
 		$menu .= tngddrow(getURL( "showlog", 0 ), "unlock-icon", "", "mnushowlog");
