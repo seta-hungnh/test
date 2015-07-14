@@ -158,7 +158,7 @@ function tng_header( $title, $flags ) {
 	if(!$cms['support'] && $sitever == "mobile" && !$tngprint && (!isset($flags['noheader']) || !$flags['noheader'])) {
 		$ttitle = "t{$templatenum}_maintitle";
 		if($tmp[$ttitle])
-			$mtitle = str_replace(array("<br />","<br>")," ", $tmp[$ttitle]);
+			$mtitle = str_replace(array("<br />","<br>")," ", $text['customtitle']);
 		else {
 			$ttitle = "t{$templatenum}_headtitle";
 			$i = 1;

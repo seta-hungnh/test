@@ -347,7 +347,7 @@ genlog.txt
 geocodelib.php
 getlang.php
 getperson.php
-globallib.php
+#globallib.php
 googleearthbylatlong.php
 googlemapdrawthemap.php
 googlemaplib.php
