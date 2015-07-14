@@ -862,6 +862,7 @@ $text['livingphoto']="";
 $text['waschristened']="Được đặt tên thánh";
 //custom text
 $text['customtitle'] = "Họ Nguyễn Năm Cành";
+$text['customhighlightstitle'] = "Phả Hệ Tiêu Biểu";
 
 @include_once(";captcha_text.php");
 @include_once(";alltext.php");
