@@ -705,7 +705,7 @@ function getDatePrefix($datestr) {
 		$datestr = strtoupper($datestr);
 		$prefixes = array($dates['BEF'], $dates['AFT'], $dates['ABT'], $dates['CAL'], $dates['EST']);
 		foreach($prefixes as $str) {
-			if(strpos($datestr, strtoupper($str)) === 0) {
+			if(!empty($str) && strpos($datestr, strtoupper($str)) === 0) {
 				$prefix = $str . " ";
 				break;
 			}
