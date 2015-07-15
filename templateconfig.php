@@ -16,7 +16,7 @@ $tmp['t2_phhisttree'] = "mytreeid";
 $tmp['t2_headimg'] = "img/headerphoto.jpg";
 $tmp['t2_headtitleimg'] = "img/headertitle.gif";
  */
-$tmp['t3_highlightspeople'] = ['I25', 'I37', 'I69'];
+$tmp['t3_highlightspeople'] = array('I25', 'I37', 'I69');
 $tmp['t3_mainimage'] = "img/mainstreet.jpg";
 $tmp['t3_maintitle'] = "Our Family History";
 $tmp['t3_titleimage'] = "img/title.gif";
