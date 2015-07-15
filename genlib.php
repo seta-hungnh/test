@@ -308,7 +308,7 @@ function getSurnameOnly( $row ) {
 
 function getFirstNameOnly( $row ) {
 	global $text, $admtext;
-
+        
 	$nonames = showNames($row);
 	if( ($row['allow_living'] && $row['allow_private']) || !$nonames )
 		$namestr = strtok( $row['firstname'], " " );
@@ -1167,5 +1167,19 @@ function custom_links( $linkdefs ) {
 
 //debugPrint($linkdefs);
 	return $menustr;
+}
+
+function tng_customhighlights( ) {
+                
+                global $text, $tmp, $defaulttree;
+                if (count($tmp['t3_highlightspeople']) == 0) return '';
+                $html =   "<div class=\"mainmenu\">\n";
+                $html .=  "<h2 class=\"header\">" . $text['customhighlightstitle'] . "</h2>";               
+                foreach ($tmp['t3_highlightspeople'] as $key) {
+                        $person = mysql_fetch_assoc(getPersonSimple($defaulttree, $key));
+                        $html .= "<a href=\"descend.php?personID="  . $key  . "&tree=" . $defaulttree . "\">" . $text['descendof'] . ' ' .  getName($person) . "</a><br>";
+                }
+                $html .=  "</div>";
+        return $html;       
 }
 ?>
