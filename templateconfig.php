@@ -1,6 +1,7 @@
 <?php
 $templatenum = "3";
 $templateswitching = "1";
+/*
 $tmp['t1_mainimage'] = "img/home-photo.jpg";
 $tmp['t1_maintitle'] = "Our Family History";
 $tmp['t1_titleimage'] = "img/home-title.gif";
@@ -11,14 +12,17 @@ $tmp['t2_titleimage'] = "img/homeheader.gif";
 $tmp['t2_pedperson'] = "I1";
 $tmp['t2_pedtree'] = "mytreeid";
 $tmp['t2_phhistperson'] = "I1";
-$tmp['t2_phhisttree'] = "mytreeid";
+$tmp['t2_phhisttree'] = "mytreeid"; 
 $tmp['t2_headimg'] = "img/headerphoto.jpg";
 $tmp['t2_headtitleimg'] = "img/headertitle.gif";
+ */
+$tmp['t3_highlightspeople'] = array('I25', 'I37', 'I69');
 $tmp['t3_mainimage'] = "img/mainstreet.jpg";
 $tmp['t3_maintitle'] = "Our Family History";
 $tmp['t3_titleimage'] = "img/title.gif";
 $tmp['t3_headimg'] = "img/headerphoto.jpg";
 $tmp['t3_headtitleimg'] = "img/headertitle.gif";
+/*
 $tmp['t4_mainimage'] = "img/bigphoto.jpg";
 $tmp['t4_photocaption'] = "Mt. Pleasant, Utah, about 1915";
 $tmp['t4_headline'] = "Main Feature";
@@ -221,4 +225,6 @@ vitae feugiat sapien ante eget mauris. Pellentesque ac felis tellus. Aenean soll
 Duis placerat justo eu nunc interdum ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet
 congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Pellentesque ac felis tellus. Aenean sollicitudin
 imperdiet arcu, vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices.</p>";
+ 
+ */
 ?>

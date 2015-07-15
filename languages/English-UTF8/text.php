@@ -863,6 +863,7 @@ $text['waschristened'] = "was christened";
 //custom text
 $text['customtitle'] = "Our Family History";
 $text['customhighlightstitle'] = "Highlights";
+$text['descendof'] = "Descend of";
 
 @include_once("captcha_text.php");
 @include_once("alltext.php");

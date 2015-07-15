@@ -20,14 +20,8 @@ if(!$cms['support'] && $sitever != "mobile")
 			<div style="padding:10px">
 			<em class="maintitle">				
 				<?php echo $text['customtitle']; ?>
-				<br>                                                                        
-				<div class="mainmenu">
-                                                                                           <h2 class="header"><?php echo $text['customhighlightstitle']; ?></h2>    
-																						   <!-- TODO  -->
-					<a href="descend.php?personID=I10&tree=default">Con cháu cụ Nguyễn Văn A</a><br>
-					<a href="descend.php?personID=I20&tree=default">Con cháu cụ Nguyễn Văn B</a><br>
-					<a href="descend.php?personID=I30&tree=default">Con cháu cụ Nguyễn Văn C</a><br>
-				</div>
+				<br>
+                                                                        <?php echo tng_customhighlights(); ?>
 			</em>
 			</div>
 <?php
@@ -36,13 +30,8 @@ if(!$cms['support'] && $sitever != "mobile")
 ?>			
             <em class="maintitle">			
 			<?php echo $text['customtitle']; ?>
-                                                                        <div class="mainmenu">
-                                                                        <h2 class="header"><?php echo $text['customhighlightstitle']; ?></h2>        
-					<a href="descend.php?personID=I25&tree=honguyennamcanhtree">Con cháu cụ Nguyễn Văn Tố</a><br>
-					<a href="descend.php?personID=I37&tree=honguyennamcanhtree">Con cháu cụ Nguyễn Văn Uông</a><br>
-					<a href="descend.php?personID=I69&tree=honguyennamcanhtree">Con cháu cụ Nguyễn Văn Nhận</a><br>
-				</div>
-			</em>
+                                                      <?php echo tng_customhighlights(); ?>
+            </em>
 <?php
 	}
 	//end TITLE IMAGE

@@ -863,6 +863,7 @@ $text['waschristened']="Được đặt tên thánh";
 //custom text
 $text['customtitle'] = "Tên theo yêu cầu";	//TODO
 $text['customhighlightstitle'] = "Phả Hệ Tiêu Biểu";
+$text['descendof'] = "Con cháu cụ";
 
 @include_once(";captcha_text.php");
 @include_once(";alltext.php");

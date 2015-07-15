@@ -133,7 +133,7 @@ $change_limit = "10";
 $tngconfig['preferEuro'] = "false";
 $tngconfig['calstart'] = "0";
 $tngconfig['pardata'] = "0";
-$defaulttree = "";
+$defaulttree = "default";
 $tng_notinstalled = "";
 
 if(!isset($cms['auto'])) {
