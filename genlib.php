@@ -67,6 +67,8 @@ function tng_header( $title, $flags ) {
 	echo "<meta name=\"Keywords\" content=\"$title\" />\n";
 	//echo "<meta name=\"Description\" content=\"" . preg_replace("/\"/", "", $title . $siteprefix) . "\" />\n";
 	echo "<meta name=\"Description\" content=\"" . $title . $siteprefix . "\" />\n";
+        // page icon
+        echo "<link rel=\"shortcut icon\" href=\"{$cms['tngpath']}img/icon.png\">";
 	if( $session_charset )
 		echo "<meta http-equiv=\"Content-type\" content=\"text/html; charset=$session_charset\" />\n";
 	if( isset( $flags['norobots'] ) )
