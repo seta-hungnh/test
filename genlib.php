@@ -68,8 +68,7 @@ function tng_header( $title, $flags ) {
 	//echo "<meta name=\"Description\" content=\"" . preg_replace("/\"/", "", $title . $siteprefix) . "\" />\n";
 	echo "<meta name=\"Description\" content=\"" . $title . $siteprefix . "\" />\n";
         // page icon
-    echo "<link rel=\"shortcut icon\" href=\"{$cms['tngpath']}img/icon.png\">";
-	echo "<link rel=\"canonical\" href=\"http://hohang.vn\">";
+        echo "<link rel=\"shortcut icon\" href=\"{$cms['tngpath']}img/icon.png\">";
 	if( $session_charset )
 		echo "<meta http-equiv=\"Content-type\" content=\"text/html; charset=$session_charset\" />\n";
 	if( isset( $flags['norobots'] ) )
@@ -219,7 +218,7 @@ function tng_footer( $flags ) {
 }
 
 function tng_basicfooter() {
-	global $text, $tng_version, $sitever;
+	global $text, $tng_version, $sitever, $tng_title;
 
 	$newsitever = getSiteVersion();
 	//echo "ver=$sitever, nsv=$newsitever";
@@ -240,7 +239,7 @@ function tng_basicfooter() {
 		echo "<a href=\"$thispage{$con}sitever=$gotover\" class=\"fieldnameback lightlink2 rounded4\">&nbsp;{$message}&nbsp;</a>\n";
 		echo "</p><br/>\n";
 	}
-	return "<p class=\"smaller center\">{$text['pwrdby']} <a href=\"mailto:admin@hohang.vn?Subject=Yêu cầu xây dựng website gia phả\" target=\"_top\">Dolphin</a> 2013-" . date('Y') . ".</p>\n";
+	return "<p class=\"smaller center\">{$text['pwrdby']} <a href=\"mailto:admin@hohang.vn?Subject=Yêu cầu xây dựng website gia phả\" target=\"_top\">{$tng_title}</a> 2013-" . date('Y') . ".</p>\n";
 }
 
 function getSmallPhoto( $medialink ) {
