@@ -244,7 +244,7 @@ function tng_basicfooter() {
 		echo "<a href=\"$thispage{$con}sitever=$gotover\" class=\"fieldnameback lightlink2 rounded4\">&nbsp;{$message}&nbsp;</a>\n";
 		echo "</p><br/>\n";
 	}
-	return "<p class=\"smaller center\">{$text['pwrdby']} <a href=\"mailto:admin@hohang.vn?Subject=Yêu cầu xây dựng website gia phả\" target=\"_top\">{$tng_title}</a> 2013-" . date('Y') . ".</p>\n";
+	return "<p class=\"smaller center\">{$text['pwrdby']} <a href=\"http://hohang.vn\">{$tng_title}</a> 2013-" . date('Y') . ".</p>\n";
 }
 
 function getSmallPhoto( $medialink ) {
