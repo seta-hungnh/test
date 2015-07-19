@@ -1,5 +1,5 @@
 <?php
-$templatenum = "3";
+$templatenum = "14";
 $templateswitching = "1";
 /*
 $tmp['t1_mainimage'] = "img/home-photo.jpg";
@@ -206,10 +206,11 @@ vitae feugiat sapien ante eget mauris. Pellentesque ac felis tellus. Aenean soll
 Duis placerat justo eu nunc interdum ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet
 congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Pellentesque ac felis tellus. Aenean sollicitudin
 imperdiet arcu, vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices.</p>";
-$tmp['t14_maintitle'] = "Our Family History";
-$tmp['t14_headsubtitle'] = "The Genealogy of the Surname Family";
+ */
+$tmp['t14_maintitle'] = "Họ Nguyễn Năm Cành";
+$tmp['t14_headsubtitle'] = "Uống nước nhớ nguồn";
 $tmp['t14_mainimage'] = "img/mainphoto.jpg";
-$tmp['t14_photocaption'] = "Wedding photo for Niels Jensen and Nicolena Rolfsen, about 1852.";
+$tmp['t14_photocaption'] = "Từ đường cành 3 xây dựng năm 2014.";
 $tmp['t14_headimg'] = "img/smallphoto.jpg";
 $tmp['t14_headimg2'] = "img/smallphoto2.jpg";
 $tmp['t14_headimg3'] = "img/smallphoto3.jpg";
@@ -219,12 +220,8 @@ $tmp['t14_dadtree'] = "mytreeid";
 $tmp['t14_momside'] = "Her Side";
 $tmp['t14_momperson'] = "I1";
 $tmp['t14_momtree'] = "mytreeid";
-$tmp['t14_welcome'] = "Welcome!";
-$tmp['t14_mainpara'] = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh,
-vitae feugiat sapien ante eget mauris. Pellentesque ac felis tellus. Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id.
-Duis placerat justo eu nunc interdum ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet
-congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Pellentesque ac felis tellus. Aenean sollicitudin
-imperdiet arcu, vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices.</p>";
- 
- */
+$tmp['t14_welcome'] = "Giới thiệu dòng họ";
+$tmp['t14_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, từ đường tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn hướng về nguồn cội</p>";
+
+
 ?>
