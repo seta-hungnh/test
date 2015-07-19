@@ -1,9 +1,8 @@
 <?php
-$templatenum = "14";
+$templatenum = "12";
 $templateswitching = "1";
-/*
 $tmp['t1_mainimage'] = "img/home-photo.jpg";
-$tmp['t1_maintitle'] = "Our Family History";
+$tmp['t1_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t1_titleimage'] = "img/home-title.gif";
 $tmp['t1_headimgplustitle'] = "img/header-title.gif";
 $tmp['t2_mainimage'] = "img/mainphoto.jpg";
@@ -15,14 +14,12 @@ $tmp['t2_phhistperson'] = "I1";
 $tmp['t2_phhisttree'] = "mytreeid"; 
 $tmp['t2_headimg'] = "img/headerphoto.jpg";
 $tmp['t2_headtitleimg'] = "img/headertitle.gif";
- */
 $tmp['t3_highlightspeople'] = array('I25', 'I37', 'I69');
 $tmp['t3_mainimage'] = "img/mainstreet.jpg";
-$tmp['t3_maintitle'] = "Our Family History";
+$tmp['t3_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t3_titleimage'] = "img/title.gif";
 $tmp['t3_headimg'] = "img/headerphoto.jpg";
 $tmp['t3_headtitleimg'] = "img/headertitle.gif";
-/*
 $tmp['t4_mainimage'] = "img/bigphoto.jpg";
 $tmp['t4_photocaption'] = "Mt. Pleasant, Utah, about 1915";
 $tmp['t4_headline'] = "Main Feature";
@@ -48,18 +45,12 @@ $tmp['t4_featurethumb4'] = "img/featurethumb1.gif";
 $tmp['t4_featurepara4'] = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.";
 $tmp['t4_headimg'] = "img/smallphoto.jpg";
 $tmp['t4_titleimg'] = "img/title.gif";
-$tmp['t5_maintitle'] = "Our Family History and Ancestry";
+$tmp['t5_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t5_mainimage'] = "img/mediumphoto.jpg";
 $tmp['t5_headimg'] = "img/smallphoto.jpg";
-$tmp['t5_mainpara'] = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
-vulputate velit esse molestie consequat, vel illum dolore eu
-feugiat nulla facilisis at vero eros et accumsan et iusto odio
-dignissim qui blandit praesent luptatum zzril delenit a.";
-$tmp['t6_maintitle'] = "Our Family History";
+$tmp['t5_welcome'] = "Giới thiệu dòng họ!";
+$tmp['t5_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, từ đường tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn hướng về nguồn cội</p>";
+$tmp['t6_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t6_headimg'] = "img/titlebottom.jpg";
 $tmp['t6_mainpara'] = "This is where you can welcome the user to your site.";
 $tmp['t6_searchpara'] = "To search the genealogy database, enter a name below. You will find many families!";
@@ -101,7 +92,7 @@ $tmp['t8_dadside'] = "Dad's Side";
 $tmp['t8_dadsidenames'] = "Dad's Side";
 $tmp['t8_dadperson'] = "I2";
 $tmp['t8_dadtree'] = "mytreeid";
-$tmp['t9_maintitle'] = "Our Family History";
+$tmp['t9_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t9_headsubtitle'] = "genealogy of the surname family";
 $tmp['t9_headimg'] = "img/header-object.png";
 $tmp['t9_welcome'] = "Welcome!";
@@ -127,10 +118,10 @@ Find a Grave, http://www.findagrave.com
 Fold3, http://www.fold3.com
 Rootsweb, http://www.rootsweb.com
 TNG, http://www.tngsitebuilding.com";
-$tmp['t10_maintitle'] = "Our Family History";
-$tmp['t10_headsubtitle'] = "genealogy of the surname family";
+$tmp['t10_maintitle'] = "Họ Nguyễn Năm Cành";
+$tmp['t10_headsubtitle'] = "Uống nước nhớ nguồn";
 $tmp['t10_headimg'] = "img/header-object.png";
-$tmp['t10_welcome'] = "Welcome!";
+$tmp['t10_welcome'] = "Giới thiệu dòng họ";
 $tmp['t10_mainimage'] = "img/beatrice-carlisle-soft.jpg";
 $tmp['t10_dadside'] = "His Side";
 $tmp['t10_dadperson'] = "I2";
@@ -138,10 +129,8 @@ $tmp['t10_dadtree'] = "mytreeid";
 $tmp['t10_momside'] = "Her Side";
 $tmp['t10_momperson'] = "I1";
 $tmp['t10_momtree'] = "mytreeid";
-$tmp['t10_mainpara'] = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus.</p>
-<p>Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices. Phasellus elit dolor, porttitor id consectetur sit amet, posuere id magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<p>Suspendisse pharetra auctor pharetra. Nunc a sollicitudin est. Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed. Donec vel neque in neque porta venenatis sed sit amet lectus. Fusce ornare elit nisl, feugiat bibendum lorem. Vivamus pretium dictum sem vel laoreet. In fringilla pharetra purus, semper vulputate ligula cursus in. Donec at nunc nec dui laoreet porta eu eu ipsum. Sed eget lacus sit amet risus elementum dictum.</p>";
-$tmp['t10_featurelinks'] = "Feature 1, showmedia.php?mediaID=xxx
+$tmp['t11_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, từ đường tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn hướng về nguồn cội</p>";
+$tmp['t11_featurelinks'] = "Feature 1, showmedia.php?mediaID=xxx
 Feature 2, histories/feature2.php
 Feature 3, http://www.other-web-site.com/feature3.html";
 $tmp['t10_featurepara'] = "Lorem ipsum dolor sit amet. Nam sit amet sem. Mauris a ante.";
@@ -153,7 +142,7 @@ Find a Grave, http://www.findagrave.com
 Fold3, http://www.fold3.com
 Rootsweb, http://www.rootsweb.com
 TNG, http://www.tngsitebuilding.com";
-$tmp['t11_maintitle'] = "Our Family History";
+$tmp['t11_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t11_mainimage'] = "img/mainphoto.jpg";
 $tmp['t11_dadside'] = "His Side";
 $tmp['t11_dadperson'] = "I2";
@@ -161,11 +150,7 @@ $tmp['t11_dadtree'] = "mytreeid";
 $tmp['t11_momside'] = "Her Side";
 $tmp['t11_momperson'] = "I1";
 $tmp['t11_momtree'] = "mytreeid";
-$tmp['t11_mainpara'] = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh,
-vitae feugiat sapien ante eget mauris. Pellentesque ac felis tellus. Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id.
-Duis placerat justo eu nunc interdum ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet
-congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Pellentesque ac felis tellus. Aenean sollicitudin 
-imperdiet arcu, vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices.</p>";
+$tmp['t11_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, từ đường tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn hướng về nguồn cội</p>";
 $tmp['t1_titlechoice'] = "image";
 $tmp['t2_titlechoice'] = "image";
 $tmp['t3_titlechoice'] = "text";
@@ -176,14 +161,11 @@ $tmp['t7_titlechoice'] = "image";
 $tmp['t8_featurespara'] = "<p><a href=\"mostwanted.php\">Most Wanted</a> - I am looking for information about these ancestors.  Can you help?</p>
 	<p><a href=\"whatsnew.php\">What's New</a> - View the latest updates made to the site.</p>";
 $tmp['t8_menutitle'] = "Site Menu";
-$tmp['t12_maintitle'] = "Our Family Genealogy Pages";
-$tmp['t12_headsubtitle'] = "Discovering our American, Canadian and European Ancestors";
+$tmp['t12_maintitle'] = "Họ Nguyễn Năm Cành";
+$tmp['t12_headsubtitle'] = "Uống nước nhớ nguồn";
 $tmp['t12_headimg'] = "img/book.png";
-$tmp['t12_welcome'] = "Welcome!";
-$tmp['t12_mainpara'] = "<p>This is where you can welcome a user to your site. You might also give them some basic information on navigating and links to any help or FAQ pages you may have.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus.</p>
-<p>Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices. Phasellus elit dolor, porttitor id consectetur sit amet, posuere id magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<p>Suspendisse pharetra auctor pharetra. Nunc a sollicitudin est. Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed. Donec vel neque in neque porta venenatis sed sit amet lectus. Fusce ornare elit nisl, feugiat bibendum lorem. Vivamus pretium dictum sem vel laoreet. In fringilla pharetra purus, semper vulputate ligula cursus in. Donec at nunc nec dui laoreet porta eu eu ipsum. Sed eget lacus sit amet risus elementum dictum.</p>";
+$tmp['t12_welcome'] = "Giới thiệu dòng họ!";
+$tmp['t12_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, từ đường tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn hướng về nguồn cội</p>";
 $tmp['t12_photol'] = "img/charlemagne1.jpg";
 $tmp['t12_phototitlel'] = "Emperor Charlemagne";
 $tmp['t12_photocaptionl'] = "King Charles I of France (Charlemagne) is a grandfather to many persons in our family tree. As a result we have many kings, queens, dukes, duchesses, etc. as grandparents and cousins.";
@@ -193,7 +175,7 @@ $tmp['t12_phototitler'] = "Augustin Grignon";
 $tmp['t12_photocaptionr'] = "Augustin Grignon was a fur trader and general entrepreneur in the Fox River Valley in territorial Wisconsin, surviving into its early years of statehood.";
 $tmp['t12_featurelink2'] = "http://en.wikipedia.org/wiki/Augustin_Grignon";
 $tmp['t12_topsurnames'] = "Top 100 Surnames in Our Family Tree";
-$tmp['t13_maintitle'] = "Our Family History";
+$tmp['t13_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t13_mainimage'] = "img/mainphoto.jpg";
 $tmp['t13_dadside'] = "His Side";
 $tmp['t13_dadperson'] = "I2";
@@ -201,12 +183,7 @@ $tmp['t13_dadtree'] = "mytreeid";
 $tmp['t13_momside'] = "Her Side";
 $tmp['t13_momperson'] = "I1";
 $tmp['t13_momtree'] = "mytreeid";
-$tmp['t13_mainpara'] = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh,
-vitae feugiat sapien ante eget mauris. Pellentesque ac felis tellus. Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id.
-Duis placerat justo eu nunc interdum ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet
-congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Pellentesque ac felis tellus. Aenean sollicitudin
-imperdiet arcu, vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices.</p>";
- */
+$tmp['t13_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, từ đường tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn hướng về nguồn cội</p>";
 $tmp['t14_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t14_headsubtitle'] = "Uống nước nhớ nguồn";
 $tmp['t14_mainimage'] = "img/mainphoto.jpg";
