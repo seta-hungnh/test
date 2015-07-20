@@ -1,5 +1,9 @@
 <?php
-$templatenum = "14";
+session_start();
+$templatenum = "14"; // Bo sung change template
+$_SESSION['custom_tpl'] = empty($_GET['tpl'])?$_SESSION['custom_tpl']:$_GET['tpl']; 
+$templatenum = empty($_SESSION['custom_tpl'])?$templatenum:$_SESSION['custom_tpl'];
+
 $templateswitching = "1";
 $tmp['t1_mainimage'] = "img/home-photo.jpg";
 $tmp['t1_maintitle'] = "Họ Nguyễn Năm Cành";
@@ -166,14 +170,14 @@ $tmp['t12_headsubtitle'] = "Uống nước nhớ nguồn";
 $tmp['t12_headimg'] = "img/book.png";
 $tmp['t12_welcome'] = "Giới thiệu dòng họ!";
 $tmp['t12_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, từ đường tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn hướng về nguồn cội</p>";
-$tmp['t12_photol'] = "img/charlemagne1.jpg";
-$tmp['t12_phototitlel'] = "Emperor Charlemagne";
-$tmp['t12_photocaptionl'] = "King Charles I of France (Charlemagne) is a grandfather to many persons in our family tree. As a result we have many kings, queens, dukes, duchesses, etc. as grandparents and cousins.";
-$tmp['t12_featurelink1'] = "http://en.wikipedia.org/wiki/Charlemagne";
-$tmp['t12_photor'] = "img/augustinegrignon.jpg";
-$tmp['t12_phototitler'] = "Augustin Grignon";
-$tmp['t12_photocaptionr'] = "Augustin Grignon was a fur trader and general entrepreneur in the Fox River Valley in territorial Wisconsin, surviving into its early years of statehood.";
-$tmp['t12_featurelink2'] = "http://en.wikipedia.org/wiki/Augustin_Grignon";
+$tmp['t12_photol'] = "img/TuDuongCanh3.jpg";
+$tmp['t12_phototitlel'] = "Nguyễn Tộc Đệ Chi Tam";
+$tmp['t12_photocaptionl'] = "Từ đường chi thứ 3 được xây dựng lại và hoàn thành vào năm 2013";
+$tmp['t12_featurelink1'] = "http://en.wikipedia.org/";
+$tmp['t12_photor'] = "img/TuDuongNamCanh.jpg";
+$tmp['t12_phototitler'] = "Từ đường họ nguyễn năm cành";
+$tmp['t12_photocaptionr'] = "Từ đường chi thứ 3 được xây dựng lại và hoàn thành vào năm 1993";
+$tmp['t12_featurelink2'] = "http://en.wikipedia.org/";
 $tmp['t12_topsurnames'] = "Top 100 Surnames in Our Family Tree";
 $tmp['t13_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t13_mainimage'] = "img/mainphoto.jpg";
@@ -198,7 +202,7 @@ $tmp['t14_momside'] = "Her Side";
 $tmp['t14_momperson'] = "I1";
 $tmp['t14_momtree'] = "mytreeid";
 $tmp['t14_welcome'] = "Giới thiệu dòng họ";
-$tmp['t14_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, từ đường tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn hướng về nguồn cội</p>";
+$tmp['t14_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, nguyên quán tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn đồng lòng hướng về nguồn cội.</p>";
 
 
 ?>
