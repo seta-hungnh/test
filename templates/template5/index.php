@@ -70,7 +70,7 @@ $text['contactus_long'] = str_replace( "suggest.php", "suggest.php?page=$title",
 
 <!--Welcome message-->
 
-              <h1><?php echo $tmp['t5_welcome']; ?>!</h1>
+              <h1><?php echo $tmp['t5_welcome']; ?></h1>
 
 <!-- end welcome message -->
 

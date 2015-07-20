@@ -1,6 +1,6 @@
 <?php
 session_start();
-$templatenum = "14"; // Bo sung change template
+$templatenum = "3"; // Bo sung change template
 $_SESSION['custom_tpl'] = empty($_GET['tpl'])?$_SESSION['custom_tpl']:$_GET['tpl']; 
 $templatenum = empty($_SESSION['custom_tpl'])?$templatenum:$_SESSION['custom_tpl'];
 
@@ -52,7 +52,7 @@ $tmp['t4_titleimg'] = "img/title.gif";
 $tmp['t5_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t5_mainimage'] = "img/mediumphoto.jpg";
 $tmp['t5_headimg'] = "img/smallphoto.jpg";
-$tmp['t5_welcome'] = "Giới thiệu dòng họ!";
+$tmp['t5_welcome'] = "Giới thiệu dòng họ";
 $tmp['t5_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, từ đường tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn hướng về nguồn cội</p>";
 $tmp['t6_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t6_headimg'] = "img/titlebottom.jpg";
@@ -168,7 +168,7 @@ $tmp['t8_menutitle'] = "Site Menu";
 $tmp['t12_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t12_headsubtitle'] = "Uống nước nhớ nguồn";
 $tmp['t12_headimg'] = "img/book.png";
-$tmp['t12_welcome'] = "Giới thiệu dòng họ!";
+$tmp['t12_welcome'] = "Giới thiệu dòng họ";
 $tmp['t12_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn Năm Cành, từ đường tại xã Xuân Châu - Xuân Trường - Nam Định. <br>Dòng họ có truyền thống lâu đời, tính từ thủa Tổ Mẫu chọn Xuân Châu làm nơi lập nghiệp cho tới nay đã đến đời thứ 20. <br>Đất nước đổi mới, con cháu mỗi người lập nghiệp một phương, cả trong và ngoài nước, nhưng tất cả luôn hướng về nguồn cội</p>";
 $tmp['t12_photol'] = "img/TuDuongCanh3.jpg";
 $tmp['t12_phototitlel'] = "Nguyễn Tộc Đệ Chi Tam";
