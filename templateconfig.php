@@ -1,5 +1,5 @@
 <?php
-$templatenum = "12";
+$templatenum = "14";
 $templateswitching = "1";
 $tmp['t1_mainimage'] = "img/home-photo.jpg";
 $tmp['t1_maintitle'] = "Họ Nguyễn Năm Cành";

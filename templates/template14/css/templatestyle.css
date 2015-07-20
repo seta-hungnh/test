@@ -686,7 +686,8 @@ h2.site-head {
 }
 
 .subheader {
-	font-family: "Arial Black", Arial, "Sans Serif";
+	font-family: Arial, "Sans Serif";
+	font-weight:bold;
 	color: #825953;
 	margin-top: 0px;
 }
