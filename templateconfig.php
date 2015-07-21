@@ -1,6 +1,6 @@
 <?php
 session_start();
-$templatenum = "3"; // Bo sung change template
+$templatenum = "14"; // Bo sung change template
 $_SESSION['custom_tpl'] = empty($_GET['tpl'])?$_SESSION['custom_tpl']:$_GET['tpl']; 
 $templatenum = empty($_SESSION['custom_tpl'])?$templatenum:$_SESSION['custom_tpl'];
 
@@ -191,7 +191,7 @@ $tmp['t13_mainpara'] = "<p>Đây là cổng thông tin của dòng họ Nguyễn
 $tmp['t14_maintitle'] = "Họ Nguyễn Năm Cành";
 $tmp['t14_headsubtitle'] = "Uống nước nhớ nguồn";
 $tmp['t14_mainimage'] = "img/mainphoto.jpg";
-$tmp['t14_photocaption'] = "Từ đường cành 3 xây dựng năm 2014.";
+$tmp['t14_photocaption'] = "Từ đường đệ chi tam hoàn thành vào tháng 12 năm 2013.";
 $tmp['t14_headimg'] = "img/smallphoto.jpg";
 $tmp['t14_headimg2'] = "img/smallphoto2.jpg";
 $tmp['t14_headimg3'] = "img/smallphoto3.jpg";
